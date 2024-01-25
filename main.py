@@ -16,9 +16,8 @@ if __name__ == '__main__':
     list1 = input("Enter first number:").split()
     list2 = input("Enter second number:").split()
 
+    sum_prod = sum_of_products(list1, list2)
+    print(sum_prod)
+
     #if len(list1) != len(list2):
     #    print("Error")
-
-    if len(list1) == len(list2):
-        sum_prod = sum_of_products(list1, list2)
-        print(sum_prod)
