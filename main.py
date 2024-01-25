@@ -16,4 +16,5 @@ if __name__ == '__main__':
     list_B = [int(n) for n in input().split()]
 
     sum_product = sum_of_products(list_A, list_B)
+    print(sum_product)
 
