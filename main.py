@@ -5,5 +5,4 @@ def sum_of_products(list1, list2):
 
 if __name__ == '__main__':
    #REMOVE PASS AND YOUR CODE GOES HERE
-    #read in the series of numbers
     pass
