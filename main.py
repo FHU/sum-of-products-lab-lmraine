@@ -1,10 +1,21 @@
 #REMOVE PASS AND FIX THE FUNCTION
 #change to test push and forks
+
+
 def sum_of_products(list1, list2):
-    #this function should do the math
-    pass
+    sum = 0
+    for i in range(len(list1)):
+        sum += (int(list1[i]) * int(list2[i]))
+    return sum
+
 
 if __name__ == '__main__':
-   #REMOVE PASS AND YOUR CODE GOES HERE
-    #read in the integers
-    pass
+    list1 = input("Enter first number:").split()
+    list2 = input("Enter second number:").split()
+
+    if len(list1) != len(list2):
+        print("Error")
+
+    if len(list1) == len(list2):
+        print(sum_of_products(list1, list2))
+

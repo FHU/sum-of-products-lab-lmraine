@@ -5,8 +5,8 @@ Write a program that reads in two series of integers and returns the sum of mult
 
 For example:  
 Input  
-123  
-321  
+1 2 3  
+3 2 1  
 
 Output = (1 * 3) + (2 * 2) + (3*1)  
 10  
