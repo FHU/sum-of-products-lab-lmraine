@@ -7,6 +7,14 @@ def sum_of_products(list1, list2):
         total += product
     
     return total
+    product = 0
+    total = 0
+
+    for i in range(len(list1)):
+        product = list1[i] * list2[i]
+        total += product
+    
+    return total
 
 if __name__ == '__main__':
    # Input list A
